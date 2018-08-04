@@ -1,6 +1,22 @@
-##VIRTUAL ENVIRONMENT
+**_VIRTUAL ENVIRONMENT_**
 
 `https://docs.python-guide.org/dev/virtualenvs/`
+
+`To Use Project specific dependencies` 
+
+1. _virtualenv_  - creates and activates and deactivate
+
+2. _virtualenvwrapper_ - creates but auto activate & deactivate with workon comand
+
+3.  IntelliJ
+
+
+
+
+
+
+
+_**virtualenv**_
 
 _virtualenv_ is a tool to create isolated Python environments. virtualenv creates a folder which contains all the necessary executables to use the packages that a Python project would need.
 
@@ -53,7 +69,7 @@ _$ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2.7_
  
  
  
- ##virtualenvwrapper
+ **_virtualenvwrapper_**
  
  virtualenvwrapper provides a set of commands which makes working with virtual environments much more pleasant. 
  
@@ -103,7 +119,7 @@ _$ lsvirtualenv_
 _$ mkproject myproject_
 
 
-##ACTIVATE FROM INTELLIJ
+**_ACTIVATE FROM INTELLIJ_**
 
 `Goto File >>Project Structure >> Virutal Environment `
 
