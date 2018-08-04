@@ -103,7 +103,6 @@ _$ lsvirtualenv_
 _$ mkproject myproject_
 
 
-
 ##ACTIVATE FROM INTELLIJ
 
 `Goto File >>Project Structure >> Virutal Environment `
