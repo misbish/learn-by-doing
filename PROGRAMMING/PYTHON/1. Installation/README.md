@@ -10,7 +10,7 @@ and verify using command python -V`
 
 `Locally it will be downloaded under C:\Users\bishn\AppData\Local\Programs\Python\Python36-32`
 
-_PYTHON IDE _
+_PYTHON IDE_
 
 `Download Intellij and then install pycharm plugin from jetbraint`
 
