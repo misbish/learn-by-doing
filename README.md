@@ -4,9 +4,7 @@
     PROMGRAMMING : 
           PYTHON
           FLASK
-          DJANGO
-                    
-
+          DJANGO       
 
     CONTAINER :
           DOCKER
