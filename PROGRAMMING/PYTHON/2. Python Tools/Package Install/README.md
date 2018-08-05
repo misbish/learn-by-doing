@@ -53,7 +53,7 @@ _$ pip install SomePackage==1.0.4_     # specific version
 
 _$ pip install 'SomePackage>=1.0.4'_     # minimum version
 
-_pip install -r requirements.txt_  #From Requirement Files
+_$ pip install -r requirements.txt_  #From Requirement Files
 
 **NOTE :**
 

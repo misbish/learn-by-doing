@@ -1,6 +1,6 @@
 **PYTHON STYLE GUIDE**
 
-`https://www.python.org/dev/peps/pep-0008/`
+_https://www.python.org/dev/peps/pep-0008/_
 
 
 _Indentation_
