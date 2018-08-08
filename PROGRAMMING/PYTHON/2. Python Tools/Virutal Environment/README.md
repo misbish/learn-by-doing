@@ -121,5 +121,20 @@ _$ mkproject myproject_
 
 **_ACTIVATE FROM INTELLIJ_**
 
-`Goto File >>Project Structure >> Virutal Environment `
+    virtualenv tool comes bundled with IntelliJ IDEA,
+    so the user doesn't need to install it.`
 
+To create a virtual environment
+
+    Navigate to File | Project Structure (Ctrl+Shift+Alt+S).
+    
+    In the Project Structure dialog,
+        select SDKs under the Platform Settings section,
+        click + , and from the popup menu, choose Python SDK. 
+    
+    In the left-hand pane of the Add Python Interpreter dialog box, 
+        select Virtualenv Environment. 
+        
+    Also , In Project Structure , Under Project Settings , Make sure for 
+    Projects and modules , you use virtual python sdk. 
+    
