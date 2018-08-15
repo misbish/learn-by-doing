@@ -4,25 +4,24 @@
     PROMGRAMMING : 
           PYTHON
           FLASK
-          DJANGO       
+          DJANGO  
+          DESIGN PATTERN     
 
     CONTAINER :
           DOCKER
           KUBERNETES
-          
-          
- 2nd Week Target
- 
- 
-    Python
-    1.  Set Up Development Environment
-    2.  Run Python Hello World with Unit Test
-    3.  Run Python Hello World Class with Unit Test
-    4.  Learn Python Build Tool
     
-    Flask
-    1.  Set Up Development Environment
-    2.  Run Flask Hello World
+    UI :    
+          REACTJS
+          
+                
+          
+ August 
+ 
+    
+    Python
+        1.  Set Up Development Environment
+        2.  Run Python Hello World 
     
     Django
     1.  Set Up Development Environment
@@ -35,5 +34,13 @@
     Kubernetes
     1.  Set Up Development Environment
     2.  Run Docker Hello World
+    
+    ReactJs
+        1.  Set Up Development Environment
+        2.  Run ReactJs Hello World
+    
+    Flask
+        1.  Set Up Development Environment
+        2.  Run Flask Hello World
     
    
