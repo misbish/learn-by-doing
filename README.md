@@ -1,46 +1,30 @@
 # learn-by-doing
 
 
-    PROMGRAMMING : 
+    PYTHON DEVELOPER : 
           PYTHON
           FLASK
           DJANGO  
-          DESIGN PATTERN     
+          DESIGN PATTERN    
+          
+          
+    UI DEVELOPER :    
+          REACTJS 
+          REDUX
+          CSS -Just a Glimpse 
+          JAVA SCRIPT - Just a Glimpse
+        
 
-    CONTAINER :
+    DEVOPS DEVELOPER :
+          GIT
+          JENKINS
           DOCKER
           KUBERNETES
     
-    UI :    
-          REACTJS
+    
+    CLOUD ENGINEER :
+          CLOUD FOUNDRY - Training 
+          AWS ASSOCIATE - Training  
+     
           
                 
-          
- August 
- 
-    
-    Python
-        1.  Set Up Development Environment
-        2.  Run Python Hello World 
-    
-    Django
-    1.  Set Up Development Environment
-    2.  Run Django Hello World
-
-    Docker
-    1.  Set Up Development Environment
-    2.  Run Docker Hello World
-    
-    Kubernetes
-    1.  Set Up Development Environment
-    2.  Run Docker Hello World
-    
-    ReactJs
-        1.  Set Up Development Environment
-        2.  Run ReactJs Hello World
-    
-    Flask
-        1.  Set Up Development Environment
-        2.  Run Flask Hello World
-    
-   
