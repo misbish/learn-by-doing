@@ -1,50 +1,63 @@
 # learn-by-doing
 
 
-    PYTHON DEVELOPER : 
+  1)  PYTHON DEVELOPER : 
+          
           PYTHON
           FLASK
           DJANGO  
           DESIGN PATTERN    
           
-    JAVA DEVELOPER :
+  2)  JAVA DEVELOPER :
+     
           CORE JAVA 
           REST 
           SPRING 
           DESIGN PATTERN
                     
-    UI DEVELOPER :    
+  3)  UI DEVELOPER :    
+     
           REACTJS 
           REDUX
           CSS
           JAVA SCRIPT
         
-    DEVOPS DEVELOPER :
+  4)  DEV OPS DEVELOPER :
+    
           GIT
           JENKINS
           DOCKER
           KUBERNETES
       
-    CLOUD ENGINEER :
+  5)  CLOUD ENGINEER :
+    
           CLOUD FOUNDRY - ASSOCIATE
           CLOUD FOUNDRY - PROFESSIONAL 
           AWS - ASSOCIATE  
           AWS - PROFESSIONAL
           
-    OPS ENGINEER :
+  6)  OPS ENGINEER :
+    
           UNIX COMMANDS
           UNIX ADMIN
           NETOWRKING COMMANDS
           SRE ACTIVITY
           
-    TOOL :
+  7)  TOOL :
+    
           MAVEN
           GRADLE
           NODE 
           SONAR 
                     
-    LIVE PROJECT :
+  8)  LIVE PROJECT :
+    
           JULES 
           GAIA
           GCP 
           TECH PRIMERS
+          
+          
+  EPIC - 1 :        DEVELOPER [1,2,3,4,7]
+  
+  EPIC - 2 :        ENGINEER [5,6]
