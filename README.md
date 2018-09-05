@@ -16,8 +16,8 @@
     UI DEVELOPER :    
           REACTJS 
           REDUX
-          CSS -Just a Glimpse 
-          JAVA SCRIPT - Just a Glimpse
+          CSS
+          JAVA SCRIPT
         
     DEVOPS DEVELOPER :
           GIT
@@ -27,7 +27,7 @@
       
     CLOUD ENGINEER :
           CLOUD FOUNDRY - ASSOCIATE
-          CLOUD FOUNDRY - PROFESSIONAL  
+          CLOUD FOUNDRY - PROFESSIONAL 
           AWS - ASSOCIATE  
           AWS - PROFESSIONAL
           
@@ -40,17 +40,11 @@
     TOOL :
           MAVEN
           GRADLE
-          NPM/YARN 
+          NODE 
           SONAR 
                     
     LIVE PROJECT :
           JULES 
-          GAIA/GCP 
-          GDNA (Python Version)
-          BOOTCAMP (Java Version)
-          
-          
-            
-     
-          
-                
+          GAIA
+          GCP 
+          TECH PRIMERS
