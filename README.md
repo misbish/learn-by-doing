@@ -1,63 +1,59 @@
 # learn-by-doing
 
 
-  1)  PYTHON DEVELOPER : 
-          
-          PYTHON
-          FLASK
-          DJANGO  
-          DESIGN PATTERN    
-          
-  2)  JAVA DEVELOPER :
-     
-          CORE JAVA 
-          REST 
-          SPRING 
-          DESIGN PATTERN
-                    
-  3)  UI DEVELOPER :    
-     
-          REACTJS 
-          REDUX
-          CSS
-          JAVA SCRIPT
-        
-  4)  DEV OPS DEVELOPER :
-    
-          GIT
-          JENKINS
-          DOCKER
-          KUBERNETES
-      
-  5)  CLOUD ENGINEER :
-    
-          CLOUD FOUNDRY - ASSOCIATE
-          CLOUD FOUNDRY - PROFESSIONAL 
-          AWS - ASSOCIATE  
-          AWS - PROFESSIONAL
-          
-  6)  OPS ENGINEER :
-    
-          UNIX COMMANDS
-          UNIX ADMIN
-          NETOWRKING COMMANDS
-          SRE ACTIVITY
-          
-  7)  TOOL :
-    
-          MAVEN
-          GRADLE
-          NODE 
-          SONAR 
-                    
-  8)  LIVE PROJECT :
-    
-          JULES 
-          GAIA
-          GCP 
-          TECH PRIMERS
-          
-          
-  EPIC - 1 :        DEVELOPER [1,2,3,4,7]
+  1)   CLOUD 
   
-  EPIC - 2 :        ENGINEER [5,6]
+            AWS :                   1. AWS SysOps Associate
+                                    2. AWS Devleoper Associate
+                                    
+            CLOUD FOUNDRY :         1. CF BEGINNERS
+                                    2. CF INTERMEDIATE 
+
+  2)   DEVELOPER : 
+          
+            PYTHON :                1. PYTHON
+                                    2. FLASK
+                                    3. DJANGO  
+                                    4. DESIGN PATTERN    
+           
+            JAVA :                  1. CORE JAVA 
+                                    2. REST 
+                                    3. SPRING  
+                                    4. DESIGN PATTERN            
+            
+            UI :                    1. REACTJS 
+                                    2. REDUX 
+                                    3. CSS
+                                    4. JAVA SCRIPT
+      
+  3)  DEV OPS  :
+    
+          Version Control :                 1. GIT
+         
+          Build Management :                2. MAVEN
+                                            3. GRADLE
+                                            4. NODE
+                                            5. PIP
+         
+          Static Analysis:                  6. SONAR
+          
+          Pipeline Orchestration :          7. JENKINS
+          
+          Containerization :                8. DOCKER
+                                            9. KUBERNETES
+                                            
+          Configuration Management :       10. PUPPET
+                                           11. ANSIBLE
+                                           
+          Loggin & Streaming :             12. Apache KAFKA
+                                           13. Apache SPARK
+                                           
+          Monitoring :                     14. PROMETHUS
+                                           15. GRAFANA
+      
+        
+  
+  
+  Cloud - Training 
+  Others -Tech Primers & Reference Documentation 
+                  
