@@ -28,32 +28,29 @@
       
   3)  DEV OPS  :
     
-          Version Control :                 1. GIT
+          Version Control & Build Management :
+                           1. GIT
+                           2. MAVEN
+                           3. GRADLE
+                           4. NODE
+                           5. PIP
+                           
          
-          Build Management :                2. MAVEN
-                                            3. GRADLE
-                                            4. NODE
-                                            5. PIP
-         
-          Static Analysis:                  6. SONAR
-          
-          Pipeline Orchestration :          7. JENKINS
-          
-          Containerization :                8. DOCKER
-                                            9. KUBERNETES
-                                            
-          Configuration Management :       10. PUPPET
-                                           11. ANSIBLE
+          Orchestration & Containerization & Configuration :
+                           1. JENKINS
+                           2. DOCKER
+                           3. KUBERNETES
+                           4. PUPPET
+                           5. ANSIBLE
+                           
                                            
-          Loggin & Streaming :             12. Apache KAFKA
-                                           13. Apache SPARK
+          Loggin & Streaming : 
+                           1. Apache KAFKA
+                           2. Apache SPARK
                                            
-          Monitoring :                     14. PROMETHUS
-                                           15. GRAFANA
-      
-        
   
-  
+    
   Cloud - Training 
+  
   Others -Tech Primers & Reference Documentation 
                   
