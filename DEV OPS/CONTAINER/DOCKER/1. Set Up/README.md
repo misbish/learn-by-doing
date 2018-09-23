@@ -24,7 +24,7 @@ https://docs.docker.com/install/
          Docker Toolbox
          
      
-  **Docker Toolbox overview**
+**Docker Toolbox overview**
   
   https://download.docker.com/win/stable/DockerToolbox.exe 
   

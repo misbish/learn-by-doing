@@ -59,3 +59,37 @@ Covers below
         kubectl proxy
         
 `Explore Your App`
+
+    Kubernetes Pods: 
+    - A Pod is a group of one or more application containers (such as Docker or rkt) and includes shared storage (volumes), IP address and information about how to run them.
+    - Pods are the atomic unit on the Kubernetes platform.
+    - When we create a Deployment on Kubernetes, that Deployment creates Pods with containers inside them (as opposed to creating containers directly).
+    - Each Pod is tied to the Node where it is scheduled, and remains there until termination (according to restart policy) or deletion.
+    - In case of a Node failure, identical Pods are scheduled on other available Nodes in the cluster.
+    
+
+    Kubernetes Nodes:
+    - A Pod always runs on a Node.
+    - A Node is a worker machine in Kubernetes and may be either a virtual or a physical machine, depending on the cluster.
+    - Each Node is managed by the Master. 
+    - A Node can have multiple pods, and the Kubernetes master automatically handles scheduling the pods across the Nodes in the cluster.
+    - Every Kubernetes Node runs at least:
+         -  Kubelet, a process responsible for communication between the Kubernetes Master and the Node; it manages the Pods and the containers running on a machine.
+         -  A container runtime (like Docker, rThe Master's automatic
+   
+   Command:
+       kubectl get pods 
+       kubectl describe pods 
+       kubectl proxy
+       export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+       echo Name of the Pod: $POD_NAME
+       curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/
+       kubectl logs $POD_NAME
+       kubectl exec $POD_NAME env
+       kubectl exec -ti $POD_NAME bash
+       
+       
+`Expose your app publicly i.e. via service`
+
+    A Kubernetes Service is an abstraction layer which defines a logical set of Pods and enables external traffic exposure, load balancing and service discovery for those Pods.
+    
