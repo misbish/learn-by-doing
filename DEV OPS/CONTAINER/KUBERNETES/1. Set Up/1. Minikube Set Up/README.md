@@ -75,6 +75,7 @@ https://kubernetes.io/docs/tasks/tools/install-minikube/
                or  
             - Download the minikube-installer.exe file, and execute the installer. This will automatically add minikube.exe to your path with an uninstaller available as well.
             
-
+    6) Verify Minikube
+            - minikube version
                 
                        

@@ -1,4 +1,9 @@
-$ minikube version    (Minikube Version)
+**Kubernetes Command Line**
+
+     kubectl version     #Kubectl version
+     minikube version    #Minikube version
+     
+
   
 $ minikube start  (Start Kubernetes Cluster)
 
@@ -30,3 +35,6 @@ $ kubectl exec $POD_NAME env (To execute command in pod )
 $ kubectl exec -ti $POD_NAME bash
 
 $ exit ( to Exit)
+
+$ kubectl get services #(by default serice called kubernetes runs when minikube starts)
+              
