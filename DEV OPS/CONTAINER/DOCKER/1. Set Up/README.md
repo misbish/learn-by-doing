@@ -12,6 +12,9 @@ https://docs.docker.com/install/
 
 **Docker CE** 
 
+    Docker Community Edition (CE) is ideal for individual developers and small teams
+    who look to get started with Docker and experiment with container-based apps.
+
     Docker CE is available on multiple platforms
          Docker for Mac (macOS)
             
@@ -23,27 +26,8 @@ https://docs.docker.com/install/
          
          Docker Toolbox
          
-     
-**Docker Toolbox overview**
-  
-  https://download.docker.com/win/stable/DockerToolbox.exe 
-  
-    Docker Toolbox is for older Mac and Windows systems that do not meet the requirements of Docker for Mac and Docker for Windows.
-    
-    Toolbox includes these Docker tools:
-        * Docker Machine for running docker-machine commands
-        * Docker Engine for running the docker commands
-        * Docker Compose for running the docker-compose commands
-        * Kitematic, the Docker GUI
-        * a shell preconfigured for a Docker command-line environment
-        * Oracle VirtualBox
-     
-     
- Verify Docker Installation
- 
-        $ docker --version
-        $ docker version
-        $ docker info
-        
- Open _Docker QuickStart Terminal_
- 
+**Docker EE**
+
+    Docker Enterprise Edition (EE) is designed for enterprise development and IT teams 
+    who build, ship, and run business critical applications in production at scale.
+         
