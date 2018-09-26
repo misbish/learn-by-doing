@@ -25,7 +25,7 @@
     docker-machine create --driver virtualbox myvm1   #Create Virtual Machine
     docker-machine create --driver virtualbox myvm2   #Create Virtual Machine
     
-    docker-machine ls               #List the VMs   \
+    docker-machine ls               #List the VMs   
     
     docker-machine ssh myvm1 "docker swarm init --advertise-addr <myvm1 ip>"
     o/p: Swarm initialized: current node <node ID> is now a manager.
