@@ -53,4 +53,114 @@
   Cloud - Training 
   
   Others -Tech Primers & Reference Documentation 
-                  
+  
+  
+  const ReactTable = window.ReactTable.default;
+  
+  class MyTable extends React.Component {
+  	constructor(props) {
+  		super(props);
+  
+  		this.state = { selected: {}, selectAll: 0, data: makeData() };
+  
+  		this.toggleRow = this.toggleRow.bind(this);
+  	}
+  
+  	toggleRow(firstName) {
+  		const newSelected = Object.assign({}, this.state.selected);
+  		newSelected[firstName] = !this.state.selected[firstName];
+  		this.setState({
+  			selected: newSelected,
+  			selectAll: 2
+  		});
+  	}
+  
+  	toggleSelectAll() {
+  		let newSelected = {};
+  
+  		if (this.state.selectAll === 0) {
+  			this.state.data.forEach(x => {
+  				newSelected[x.firstName] = true;
+  			});
+  		}
+  
+  		this.setState({
+  			selected: newSelected,
+  			selectAll: this.state.selectAll === 0 ? 1 : 0
+  		});
+  	}
+  
+  	render() {
+  		const columns = [
+  			{
+  				Header: "#POOL",
+  				columns: [
+  					{
+  						id: "checkbox",
+  						accessor: "",
+  						Cell: ({ original }) => {
+  							return (
+  								<input
+  									type="checkbox"
+  									className="checkbox"
+  									checked={this.state.selected[original.applicationName] === true}
+  									onChange={() => this.toggleRow(original.applicationName)}
+  								/>
+  							);
+  						},
+  						Header: x => {
+  							return (
+  								<input
+  									type="checkbox"
+  									className="checkbox"
+  									checked={this.state.selectAll === 1}
+  									ref={input => {
+  										if (input) {
+  											input.indeterminate = this.state.selectAll === 2;
+  										}
+  									}}
+  									onChange={() => this.toggleSelectAll()}
+  								/>
+  							);
+  						},
+  						sortable: false,
+  						width: 45
+  					},
+  					{
+  						Header: "Application Name",
+  						accessor: "applicationName"
+  					},
+  					{
+  						Header: "Status",
+  						id: "status",
+  						accessor: d => d.status
+  					}
+  				]
+  			}
+  			
+  		];
+  
+  		return (
+  			<div>
+  				<ReactTable
+  					data={this.state.data}
+  					columns={columns}
+  					defaultSorted={[{ id: "applicationName", desc: false }]}
+  				/>
+  			</div>
+  		);
+  	}
+  }
+  
+  ReactDOM.render(<MyTable />, document.getElementById("root"));
+  
+  function makeData() {
+  	return [
+  		{
+  			applicationName: "judge",
+  			status: "babies",
+  			age: 16
+  		}  		
+  	];
+  }
+           
