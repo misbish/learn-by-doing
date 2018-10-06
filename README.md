@@ -67,24 +67,26 @@
   
         DURATION:   OCTOBER, NOVEMBER, DECEMBER
         
-        COURSE:     1.  JENKINS
-                    2.  DOCKER
-                    3.  KUBERNETES
-                    4.  AWS 
-                    5.  CLOUD FOUNDRY
+        COURSE:     
+        
+                    CONTAINER :     1.      DOCKER      [ BEGINNER , INTERMEDIATE ]
+                                    2.      KUBERNETES  [ BEGINNER , INTERMEDIATE ]
+                                    
+                    CLOUD :         1.      AWS         [ BEGINNER , INTERMEDIATE ]
+                                    2.      CF          [ BEGINNER , INTERMEDIATE ]
+                                    
+                    LANGUAGE :      1.      PYTHON      [ BEGINNER , INTERMEDIATE ]
+                                    2.      FLASK       [ BEGINNER , INTERMEDIATE ]
                     
                     
  - 2019 
  
-       DURATION:    JANUARY, FEBRUARY , MARCH 
+       DURATION:    JANUARY
        
-       COURSE   :	PROGRAMMING LANGUAGE [ PYTHON , FLASK , REACT , REDUX , SPRING BOOT ]
-                       
-                    BUILD TOOLS [ GIT , MAVEN , GRADLE , NODE , PIP ]
-       
-                    DEVOPS TOOLS [ PUPPET , ANSIBLE , KAFKA , SPARK , SERIVCE DISCOVERY]
-       
-                    REVISION [ JENKINS , DOCKER , KUBERNETES , AWS , CF ] 
-       
-                    OFFICE TOOL [ GENEOS , Contron-M , AMPS , APPMON , GRAFANA ]
+       COURSE:
+            
+                    CERTIFICATION :      AWS & KUBERNETES 
+                    
+                    CICD :               JENKINS 
+     
        
