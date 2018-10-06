@@ -76,42 +76,15 @@
                     
  - 2019 
  
-       DURATION:    JANUARY, FEBRUARY 
+       DURATION:    JANUARY, FEBRUARY , MARCH 
        
-       COURSE:      1.  AWS 
-                    2.  CLOUD FOUNDRY 
-                    3.  DOCKER 
-                    4.  KUBERNETES
-                    5.  JENKINS 
-                    
-                    1.  PYTHON
-                    2.  FLASK 
-                    3.  REACT
-                    4.  REDUX
-                    5.  SPRING BOOT 
-                    
-                    1.  GIT
-                    2.  MAVEN
-                    3.  GRADLE
-                    4.  NODE
-                    5.  PIP
-                    
-                    1.  Geneos 
-                    2.  Control-M
-                    3.  AMPS
-                    4.  Appmon
-                    5.  Grafana
-                    
- - 2019 
-    
-       DURATION:    MARCH
+       COURSE   :	PROGRAMMING LANGUAGE [ PYTHON , FLASK , REACT , REDUX , SPRING BOOT ]
+                       
+                    BUILD TOOLS [ GIT , MAVEN , GRADLE , NODE , PIP ]
        
-       COURSE:      1.  PUPPET
-                    2.  ANSIBLE
-                    3.  KAFKA
-                    4.  SPARK
-                    5.  UNIX & SHELL SCRIPTING 
-                    
-                                        
-                    
-                    
+                    DEVOPS TOOLS [ PUPPET , ANSIBLE , KAFKA , SPARK , SERIVCE DISCOVERY]
+       
+                    REVISION [ JENKINS , DOCKER , KUBERNETES , AWS , CF ] 
+       
+                    OFFICE TOOL [ GENEOS , Contron-M , AMPS , APPMON , GRAFANA ]
+       
