@@ -1,11 +1,17 @@
 **Kubernetes Command Line**
 
-     kubectl version     #Kubectl version
+     kubectl version     #Kubectl version # Kubectl Clinet & Kubernetes Server
      minikube version    #Minikube version
      
 
-  
-$ minikube start  (Start Kubernetes Cluster)
+     minikube start                 #Start Kubernetes Cluster, See other options as args 
+     minikube get-k8s-versions      #List Kubernetes version
+     minikube start --kubernetes-version v1.7.3  # Start approprate version of kubernetes
+     
+     minikube stop                  #Stop the Cluster 
+     minikube delete                #Delete the Cluster
+     
+     
 
 $ kubectl version (Kubectl & Kubernetes version)
 

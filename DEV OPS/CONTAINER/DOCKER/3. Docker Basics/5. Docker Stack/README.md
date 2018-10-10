@@ -9,7 +9,7 @@
     
 A sample docker-compose.yml with 3 service 
 
-    version: "3"
+    version: "3"   # This is mandatory , as docker stack deploy wont work with earlier version
     services:
       web:  #Service  name
         # replace username/repo:tag with your name and image details
@@ -51,3 +51,23 @@ A sample docker-compose.yml with 3 service
           - webnet
     networks:
       webnet:
+      
+Deploy     
+
+    docker stack deploy --compose-file docker-compose.yml vote
+    
+Verfiy
+    
+    docker stack services vote
+
+YML File
+    
+    version: "3" is mandatory 
+    services key which contains all the service
+    NOTE : There is a build key but , docker stack deploy does not suppport build, hence use pre built images
+    depends_on - one service depend on other 
+    deploy : new in version 3 , allows you to specify variiour properties of deployment
+    
+
+    
+    

@@ -14,8 +14,17 @@
     
     docker run -p 4000:80 <imagename>           # Run the image
     docker run -d -p 4000:80 <imagename>        # Run in detached mode 
+    docker run -it <imagename>                  # Run in interactive mode
+    docker run --name static-site -e AUTHOR="Your Name" -d -P dockersamples/static-site
+         -d will create a container with the process detached from our terminal
+         -P will publish all the exposed container ports to random ports on the Docker host
+         -e is how you pass environment variables to the container
+         --name allows you to specify a container name
+         AUTHOR is the environment variable name and Your Name is the value that you can pass
+    docker port static-site      #Now you can see the ports by running the docker port command.
     
-    
+    docker ps                                   # List the running container
+    docker ps -a                                # List all the container
     docker container ls                         # List the Container
     docker container stop <hash>                # Gracefully stop the specified container
     docker container kill <hash>                # Force shutdown of the specified container
@@ -28,6 +37,7 @@
     docker push <username>/<repository>:<tag> (Publish)    #Push the Image 
     
     docker service ls                           # List running services associated with an app
+    docker service create -p 80:80 --name web nginx:latest  # Createa a Service
     docker service ps <service>                 # List tasks associated with an app
     docker inspect <task or container>          # Inspect task or container
     
@@ -45,6 +55,7 @@
     docker-machine ssh myvm1 "docker swarm init --advertise-addr <myvm1 ip>"   #Make a vm as swarm manager from outside
     docker swarm join                           #on other machines to have them join the swarm as workers.
     docker swarm join-token manager             #on other machien to join them as swarm manager
+    docker swarm join-token worker              #Token of worker 
     docker swarm join --token <token> <myvm ip>:<port>   #join as worker
     docker swarm leave                          #To Leave Swarm 
     
@@ -53,9 +64,13 @@
     
     docker stack deploy -c docker-compose.yml <app>  # Deploy an app; command shell must be set to talk to manager (myvm1), uses local Compose file
     docker stack deploy --with-registry-auth -c docker-compose.yml <app>      #with this flag you can run on private registry
-    
+    docker stack deploy --compose-file docker-compose.yml <app>  # Deploy an app; command shell must be set to talk to manager (myvm1), uses local Compose file
+    docker stack services <app>              # To verify your stack has deployed 
     
     eval $(docker-machine env myvm1)         # Mac command to connect shell to myvm1
     & "C:\Program Files\Docker\Docker\Resources\bin\docker-machine.exe" env myvm1 | Invoke-Expression   # Windows command to connect shell to myvm1
     eval $(docker-machine env -u)            # Disconnect shell from VMs, use native docker
             
+            
+    https://raw.githubusercontent.com/docker/labs/master/developer-tools/java/scripts/docker-compose-pull-images.yml        
+    docker-compose -f docker-compose-pull-images.yml pull --parallel  # Parallely pull the image 

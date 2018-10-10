@@ -77,19 +77,24 @@ Covers below
          -  Kubelet, a process responsible for communication between the Kubernetes Master and the Node; it manages the Pods and the containers running on a machine.
          -  A container runtime (like Docker, rThe Master's automatic
    
-   Command:
-       kubectl get pods 
-       kubectl describe pods 
-       kubectl proxy
-       export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
-       echo Name of the Pod: $POD_NAME
-       curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/
-       kubectl logs $POD_NAME
-       kubectl exec $POD_NAME env
-       kubectl exec -ti $POD_NAME bash
+       Command:
+           kubectl get pods 
+           kubectl describe pods 
+           kubectl proxy
+           export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
+           echo Name of the Pod: $POD_NAME
+           curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/
+           kubectl logs $POD_NAME
+           kubectl exec $POD_NAME env
+           kubectl exec -ti $POD_NAME bash
        
        
 `Expose your app publicly i.e. via service`
 
-    A Kubernetes Service is an abstraction layer which defines a logical set of Pods and enables external traffic exposure, load balancing and service discovery for those Pods.
+
+    - Expose your kubernetes application outside the cluster with service    
+    - A Kubernetes Service is an abstraction layer which defines a logical set of Pods and enables external traffic exposure, load balancing and service discovery for those Pods.
     
+        Command:
+            kubectl get services #(by default serice called kubernetes runs when minikube starts)
+            
