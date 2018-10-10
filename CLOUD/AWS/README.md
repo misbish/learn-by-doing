@@ -2,8 +2,6 @@
 
     Get Started Building Cloud Solutions
     
-    Cloud Practitioner Certification Preparation for AWS
-    
     Fundamentals of AWS
     
     Solutions Architect – Associate Certification Preparation for AWS
@@ -28,31 +26,11 @@
     12. Using Serveless Function ( Video )
     13. Creating our First serverless Function ( Video )
     14. Introduction to Amazon API Gateway ( Video )
-    15. Build RESTful microservices with AWS Lamba and API Gateway (LAB)
+    15. Build RESTful microservices with AWS Lambda and API Gateway (LAB)
     16. Introduction to Containers ( Video )
     17. Basics of Using Containers in Production ( Video )
     18. Getting started with an Amazon Web Services Solution : Real World Practices ( Video )
     19. Getting started Building Cloud Solutions (EXAM)
-    
-`Cloud Practitioner Certification Preparation for AWS`
-
-    1.  Introduction: Cloud Practitioner Certification Preparation for AWS ( Video )
-    2.  What is Cloud Computing ( Video )
-    3.  Compute Fundamentals of AWS for Cloud Practitioner ( Video )
-    4.  Create your first Amazon EC2 Instance Window (LAB)
-    5.  Storage Fundamentals of AWS for Cloud Practitioner ( Video )
-    6.  Create your first Amazon S3 Bucket ( LAB )
-    7.  Create your first Amazon RDS Database ( LAB )
-    8.  Amazon s3 Fundamentals (QUIZ)
-    9.  Networking Fundamentals of AWS for Cloud Practitioner ( Video )
-    10. Introduction to Virtual Private Cloud ( LAB )
-    11. Security Fundamentals of AWS for Cloud Practitioner ( Video )
-    12. Management Fundamentals of AWS for Cloud Practitioner ( Video )
-    13. Architecture Fundamentals of AWS for Cloud Practitioner ( Video )
-    14. AWS Cost Management and Customer Support ( Video )
-    15. Billing and Instance Types (QUIZ)
-    16. Summary : Cloud Practitioner Certification Preparation for AWS (Video)
-    17. Preparation Exam : Certified Cloud Practitioner for AWS (EXAM)
     
        
 `Fundamentals of AWS`
