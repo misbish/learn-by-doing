@@ -26,7 +26,7 @@ Certified Providers
     - SAP Cloud Platform
     - SUSE Cloud Application Platform
     
-https://run.pivotal.io/   - Console url running on pivotal web service 
+https://run.pivotal.io/   # Console url running on pivotal web service 
 
     
 **2. Interacting with Cloud Foundry via the CLI**
