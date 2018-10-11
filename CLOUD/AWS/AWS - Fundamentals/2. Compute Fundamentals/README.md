@@ -1,6 +1,76 @@
 **AWS Compute Fundamentals**
 
+`What is compute in AWS`
 
+     Compute resources can be considered the brains and processing power required by applications and systems to carry out computational abilities via a series of instructions.
+        - central processing units - CPU's 
+        - random access memory - RAM
+     
+     So a physcial server within a data center will be considered as a Compute Resource.
+     
+     In AWS , diferent services provide compute resource
+        - Amazon EC2 Elastic Compute Cloud
+        - Amazon ECS EC2 Container Service 
+        - AWS EBS Elastic Beanstalk 
+        - AWS Lambda
+        - AWS Batch 
+        - AWS Lightsail
+        
+        - Elastic Load balancing & Auto Scaling ( This is not a compute resource,it allows you to control and manage the amount of compute resource used by other services)
+
+`Amazon ECS`
+
+    This service allows you to run Docker enabled applications packaged as containers across a cluster of EC2 instances. 
+    
+    -   ECS removes the need for you to manage your own cluster management system.
+    -   There is no need to install any management/monitoring software for your cluster
+    -   Monitoring is taken care of through the use of AWS CloudWatch
+    
+    The cluster is dynamically scalable in a single region.
+    Multiple instance types can be used within the cluster if required
+    Amazon ECS is region specific. So it can span multiple availability zones but it cannot span multiple regions. 
+    The instances within the Amazon ECS Cluster also have a Docker daemon and an ECS Agent installed. These agents communicate with each other, allowing Amazon ECS commands to be translated into Docker commands.
+    
+`AWS Elastic Beanstalk`
+
+    Meant for only web applications 
+    AWS Elastic Beanstalk is an AWS managed service, that will take your uploaded web application code and automatically provision and deploy the appropriate and necessary resources within AWS to make the web application operational.
+    These resources can include other AWS services and features,
+             - EC2 Auto Scaling,
+             - application health-monitoring
+             - Elastic Load Balancing.
+    
+
+    -   Perfect for engineers unfamiliar with AWS
+    -   Simple , Effecttive and Quick Solution
+    -   Free to use , Charging only for resoures, not for EBS 
+    
+    Architecture
+    
+    Applications : Collection of environments , environmment Configurations, application versions
+    Application Version : Reference to deployable code, typically points to S3 ( in S3 the deployable code will reside)
+    Environment : Refer to an application version deployed on AWS resources
+    Environemnt Configuration : Collection of parameters that dictate the resources behaviour  with in the environment
+    Configuration Template : baseline for creating a new unique environment configuration
+    
+    AWS EBS Environment 2 type 1) Worker Environment
+                               2) Web Server Environment 
+                            
+    Web Server Environment - Typically for standard web apps over Http 
+                           - Used resources are - Route S3 and DNS
+                                                - Elastic Load Balancing 
+                                                - Auto Scaling 
+                                                - EC2
+                                                - Secutiry Group
+    Worker Environment     - For applications with back-end processing task interacting with SQS
+                           - Used resources are - SQS
+                                                - EC2 
+                                                - IAM Roles 
+                                                - Auto Scaling
+                               
+    
+    
+     
 
 1) Choose AMI
 Step 1: Choose an Amazon Machine Image (AMI) 
