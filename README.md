@@ -87,6 +87,6 @@
             
                     CERTIFICATION :      AWS & KUBERNETES 
                     
-                    CICD :               JENKINS 
+                    CICD :               PUPPET & ANSIBLE & JENKINS 
      
-       
+                    
