@@ -10,16 +10,3 @@
         PYTHON
         FLASK
         
-        
--   2019 [January]
-
-        CF
-        
-        PUPPET
-        ANSIBLE 
-        
-        Devops@JPMC 
-        
-        
-
-    
