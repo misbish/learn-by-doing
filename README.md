@@ -8,5 +8,4 @@
         KUBERNETES
         
         PYTHON
-        FLASK
-        
+        FLASK   
