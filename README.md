@@ -1,30 +1,23 @@
 # learn-by-doing
 
--   2018 [November , December]
 
-        Python@JPMC
+-   COURSE
 
-        AWS
-        CF
-        
-        DOCKER
-        KUBERNETES
-        
--   2019 [January , February]
-
-        DevOps@JPMC
-
-        PUPPET
-        ANSIBLE
-        
-        PYTHON
-        FLASK
-        
-        REACT
-        REDUX 
-        
-        KAFKA
-        SPARK 
-        
-
-        
+        Programming Language :          PYTHON
+                                        FLASK
+                                        REACT
+                                    
+        Cloud Platform :                AWS
+                                        GCP
+                                        CF
+                                    
+        Container Platform :            DOCKER
+                                        KUBERNETES
+                                        DCOS
+                                    
+    
+        Configuration & Orchestration : PUPPET
+                                        ANSIBLE
+                                        JENKINS
+                                    
+                                    
