@@ -3,19 +3,19 @@
 
 -   COURSE
 
+        
+        Cloud Platform :                AWS
+                                        GCP
+                                        CF
+                                            
+        Container Platform :            DOCKER
+                                        KUBERNETES
+                                        DCOS
+        
         Programming Language :          PYTHON
                                         FLASK
                                         REACT
                                     
-        Cloud Platform :                AWS
-                                        GCP
-                                        CF
-                                    
-        Container Platform :            DOCKER
-                                        KUBERNETES
-                                        DCOS
-                                    
-    
         Configuration & Orchestration : PUPPET
                                         ANSIBLE
                                         JENKINS
