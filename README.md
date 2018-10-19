@@ -19,5 +19,17 @@
         Configuration & Orchestration : PUPPET
                                         ANSIBLE
                                         JENKINS
+                                        
+                                        
+                                        
+-   2018
+
+        Cloud Platform :                AWS
+                                        GCP
+                                                    
+        Container Platform :            DOCKER
+                                        KUBERNETES
+                                        
+                                        
                                     
                                     
